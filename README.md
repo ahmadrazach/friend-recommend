@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Friend Recommend
+
+- Technologies used:
+React, React Router,Tailwindcss
+Inline If with Logical && Operator
+.slice()
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
