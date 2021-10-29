@@ -5,9 +5,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from "./containers/Home";
 import Header from "./components/Header";
-import User from "./containers/User";
+import Checker from "./components/Checker";
 function App() {
   return (
     <Router>
@@ -15,14 +14,9 @@ function App() {
       {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
       <Switch>
-        
-        <Route path="/profile/:username">
-          <User/>
-        </Route>
-        <Route path="/users">
-        </Route>
+      
         <Route path="/">
-        <Home/>
+        <Checker/>
         </Route>
       </Switch>
   </Router>
